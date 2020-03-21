@@ -63,6 +63,10 @@
   "keywords": [
     "gatsby"
   ],
+  "resolutions": {
+    "minimist": "^1.2.5",
+    "braces": "^3.0.2"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -71,7 +75,8 @@
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint --fix src/**/*.{js,jsx}",
     "stylelint": "stylelint src/**/*.js",
-    "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
+    "generate-app-icons": "sh ./scripts/generate-app-icons.sh",
+    "preinstall": "npx npm-force-resolutions"
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
@@ -81,7 +86,9 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-webpack-plugin": "^0.1.1",
     "dotenv": "^6.0.0",
+    "braces": "^3.0.2",
     "eslint": "^5.1.0",
+    "minimist": "^1.2.5",
     "eslint-config-google": "^0.9.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-graphql": "^2.1.1",
