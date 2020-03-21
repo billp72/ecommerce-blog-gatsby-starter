@@ -6,8 +6,8 @@ import Store from "../components/Store";
 import Blogger from "../components/Blogger";
 import Hero from "../components/Hero";
 import Seo from "../components/Seo";
-//import Modal from "../modal/modal";
-//import MailingForm from "../components/MailingList";
+import Modal from "../modal/modal";
+import MailingForm from "../components/MailingList";
 
 class IndexPage extends React.Component {
   separator = React.createRef();
@@ -51,14 +51,14 @@ class IndexPage extends React.Component {
 
         <hr ref={this.separator} />
 
-        {/*<ThemeContext.Consumer>
+        <ThemeContext.Consumer>
           {theme => (
             <Modal>
-              <div style={{marginBottom:"10px"}}>Join the mailing list</div>
+              <div style={{ marginBottom: "10px" }}>Join the mailing list</div>
               <MailingForm theme={theme} />
             </Modal>
           )}
-          </ThemeContext.Consumer>*/}
+        </ThemeContext.Consumer>
         <h1 style={{ margin: "55px 0 0 0" }}>Latest Blog</h1>
         <ThemeContext.Consumer>
           {theme => <Blogger posts={posts} theme={theme} facebook={facebook} />}
