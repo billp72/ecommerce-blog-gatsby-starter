@@ -205,7 +205,12 @@ module.exports = {
         ]
       }
     },
-   //`gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        globPatterns: ['**/*.{js,jpg,html,css}'],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
