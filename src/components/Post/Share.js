@@ -17,7 +17,7 @@ import {
 import config from "../../../content/meta/config";
 
 const PostShare = props => {
-  const url = config.siteUrl + config.pathPrefix + props.productSlug;
+  const url = config.siteUrl + props.productSlug;
 
   const iconSize = 36;
   const filter = count => (count > 0 ? count : "");

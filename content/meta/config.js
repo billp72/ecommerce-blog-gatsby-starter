@@ -3,7 +3,7 @@ module.exports = {
   shortSiteTitle: "Clean control ecommerce", // <title> ending for posts and pages
   siteDescription: "Ecommerce",
   siteUrl: "https://netcreative.org",
-  // pathPrefix: "",
+  pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
