@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Gatsby hero ecommerce with contentful starter", // <title>
-  shortSiteTitle: "Clean control ecommerce", // <title> ending for posts and pages
+  shortSiteTitle: "Camping", // <title> ending for posts and pages
   siteDescription: "Ecommerce",
   siteUrl: "https://netcreative.org",
   pathPrefix: "",
@@ -13,11 +13,11 @@ module.exports = {
 
   /* info */
   headerTitle: "William Pope",
-  headerSubTitle: "Buy sanitary products",
+  headerSubTitle: "Buy camping gear",
 
   /* manifest.json */
-  manifestName: "Clean Control - buy sanitary products",
-  manifestShortName: "Clean control", // max 12 characters
+  manifestName: "Camping gear - cooking, fishing, sleeping",
+  manifestShortName: "camping", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",

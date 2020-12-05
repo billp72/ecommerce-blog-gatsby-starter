@@ -12,7 +12,7 @@ const Hero = props => {
         <button onClick={scrollToContent} aria-label="scroll">
           <FaShoppingCart />
         </button>
-        <h1 style={{ color: "#102a4f" }}>Shop our store</h1>
+        <h1 style={{ color: "white" }}>Shop our store</h1>
       </section>
 
       {/* --- STYLES --- */}
